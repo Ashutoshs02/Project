@@ -1,0 +1,58 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}  
+    .carousel-inner img {
+    max-height: 110vh;  /* Adjust this value as needed */
+    object-fit: cover;  /* Ensures images cover the space properly */
+}
+
+.my-heading {
+    font-family:'Open Sans', sans-serif;  /* Change to any preferred font */
+    font-size: 28px; /* Adjust size */
+    font-weight: bold;
+    color: #333; /* Change color */
+}
+
+/* For home Tab */
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+  }
+  
+/* For other Tabs */
+.footer-1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #343a40;
+    color: white;
+    padding-top: 10px 0;
+    text-align: left;
+  }
+/* Change dropdown background to primary (blue) */
+.dropdown-menu {
+  background-color: #007bff !important; /* Bootstrap primary color */
+  border: none; /* Remove border */
+}
+
+/* Make dropdown text white */
+.dropdown-menu .dropdown-item {
+  color: white !important;
+}
+
+/* Change background color and keep text white on hover */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #0056b3 !important; /* Darker shade of primary */
+  color: white !important;
+}
+
+/* Ensure active/clicked state maintains styling */
+.dropdown-menu .dropdown-item:active {
+  background-color: #004494 !important; /* Even darker blue */
+  color: white !important;
+}
